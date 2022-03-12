@@ -1,13 +1,13 @@
 {% load i18n %}
-{% trans "Thanks for signing up with KoBoToolbox!" %}
+{% trans "Thank you for registering with DIGIKYAR!" %}
 
-{% trans "Confirming your account will give you access to KoBoToolbox applications. Please visit the following URL to finish activation of your new account." %}
+{% trans "After you confirm your account, you will have access to DIGIKYAR services. Please go to the following URL to complete the activation of your new account." %}
 
 {{ kpi_protocol }}://{{ site.domain }}/accounts/activate/{{activation_key}}
 
 {% trans "Your username is: " %} {{ user }} 
 
-{% trans "Please visit https://community.kobotoolbox.org/ to find information on how to get started. There you can also post questions to the community (recommended) or to us directly." %}
+{% trans "For more information on how to get involved, please visit https://www.digikyar.org/. You may also ask questions to the community (preferred) or directly to us." %}
 
 {% trans "Best," %}
-KoBoToolbox
+DigikYar

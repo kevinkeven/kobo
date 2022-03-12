@@ -1,16 +1,18 @@
 // header and navigation styling
-
+$layout-header-bg-color: #2496ed!important;
 // This element handles stretched background of app header
 .header-stretch-bg {
   position: absolute;
   width: 100%;
-  background-color: $layout-header-bg-color;
+  background: rgb(51,56,71);
+  background: linear-gradient(90deg, rgba(51,56,71,1) 0%, rgba(91,42,160,1) 52%, rgba(33,150,243,1) 100%);
   min-height: $layout-desktop-header-height;
   z-index: 0;
 }
 
 .mdl-layout__header {
-  background-color: $layout-header-bg-color;
+  background: rgb(51,56,71);
+  background: linear-gradient(90deg, rgba(51,56,71,1) 0%, rgba(91,42,160,1) 52%, rgba(33,150,243,1) 100%);
   min-height: $layout-desktop-header-height;
   margin-left: 0px;
   width: 100%;
@@ -380,7 +382,8 @@
   vertical-align: middle;
   line-height: 20px;
   font-size: 16px;
-  color: $kobo-white;
+  color: #37a1bf;
+  background-color: white!important;
 }
 
 .account-box__menu-item--avatar {

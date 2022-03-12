@@ -3,13 +3,11 @@
 // ==========================================================================
 
 .registration__bg {
-  background: url("../img/signup_photo.jpg");
-  background-size: cover;
-  background-repeat: none;
+  background: #f4f4f4;
   width: 100%;
   min-height: 100%;
   position: relative;
-  color: $kobo-white;
+  color: $kobo-gray-24;
   padding: 20px;
   padding-bottom: 5px;
 
@@ -26,8 +24,9 @@
     margin: 0 auto;
     position: relative;
     max-width: 400px;
-    background: rgba($kobo-gray-24, 0.75);
+    background: $kobo-white;
     padding: 20px 30px;
+    color: #565e76!important;
 
     a {
       color: lighten($kobo-blue, 20%);
@@ -68,7 +67,10 @@
   input[type=password],
   input[type=email],
   select {
-    color: $layout-text-color;
+    color: #2196f3;
+    border-color: #0b81da;
+    padding: 2px;
+    background-color: white;
   }
 
   p.help {
@@ -96,7 +98,7 @@
   border: none;
   border-radius: 0px;
   font-size: 14px;
-  border-bottom: 3px solid transparent;
+  border-bottom: 1px solid #e7e9ee;
   padding-bottom: 3px;
   margin-top: 1px;
   opacity: 0.9;

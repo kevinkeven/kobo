@@ -249,10 +249,10 @@ class MainHeader extends Reflux.Component {
       return (
         <bem.GitRev>
           <bem.GitRev__item>
-            branch: {gitRev.branch}
+            
           </bem.GitRev__item>
           <bem.GitRev__item>
-            commit: {gitRev.short}
+            
           </bem.GitRev__item>
         </bem.GitRev>
       );

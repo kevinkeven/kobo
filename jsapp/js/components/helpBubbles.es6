@@ -380,8 +380,8 @@ export class SupportHelpBubble extends HelpBubble {
               onClick={this.close.bind(this)}
             >
               <i className='k-icon k-icon-help-articles'/>
-              <header>{t('KoBoToolbox Help Center')}</header>
-              <p>{t('A vast collection of user support articles and tutorials related to KoBo')}</p>
+              <header>{t('DigikYar Help Center')}</header>
+              <p>{t('A large collection of digik-related user assistance articles and tutorials')}</p>
             </bem.HelpBubble__rowAnchor>
           }
 
@@ -394,7 +394,7 @@ export class SupportHelpBubble extends HelpBubble {
               onClick={this.close.bind(this)}
             >
               <i className='k-icon k-icon-forum'/>
-              <header>{t('KoBoToolbox Community Forum')}</header>
+              <header>{t('DigikYar Community Forum')}</header>
               <p>{t('Post your questions to get answers from experienced KoBo users around the world')}</p>
             </bem.HelpBubble__rowAnchor>
           }

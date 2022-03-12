@@ -1,2 +1,2 @@
 {% load i18n %}
-{% trans "Activate your KoBoToolbox Account" %}
+{% trans "To continue using DIGIKYAR, you must first activate your account." %}

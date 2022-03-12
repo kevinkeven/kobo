@@ -18,7 +18,7 @@
     <input type="submit" value="Go" class="hidden" />
 </form>
 
-<form action="." method="post" class="registration registration--register">
+<form action="." method="post" class="registration registration--register shadow">
   <div class="registration--logo">
     <a href="/">
       {% block logo %}{{ block.super }}{% endblock %}
@@ -45,16 +45,15 @@
             <div class="field" id="registration-password-app"></div>
           {% endif %}
       {% endfor %}
-      <input type="submit" value="{% trans 'Create Account' %}" class="registration__action" />
-      <div class="registration__orlogin">
+      <input type="submit" value="{% trans 'Create Account' %}" class="btn btn-success" />
+      <div class="registration__footer">
         {% trans "or" %} <a href="{% url 'auth_login' %}">{% trans "login" %}</a>
       </div>
   </div>
 
   <div class="registration__second-half">
       {% if welcome_message %} {{ welcome_message|safe }} {% else %}
-      <p>KoBoToolbox is an integrated set of tools for building forms and collecting interview responses. It is built by the Harvard Humanitarian Initiative for easy and reliable use in difficult field settings, such as humanitarian emergencies or
-          post-conflict environments. <a href="http://www.kobotoolbox.org">Read more</a></p>
+      <p>The DIGIKYAR Tool is a comprehensive suite of tools for creating forms and gathering interview replies. <a href="https://www.digikyar.org">Read more</a></p>
       {% endif %}
   </div>
   <div style="clear:both;"></div>

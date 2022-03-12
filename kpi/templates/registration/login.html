@@ -2,7 +2,7 @@
 {% load static %}
 {% load i18n %}
 {% block content %}
-  <form method="post" action="." class="registration registration--login">
+  <form method="post" action="." class="registration registration--login shadow">
     <div class="registration--logo"><a href="/">
     {% block logo %}{{ block.super }}{% endblock %}
     </a></div>
@@ -11,7 +11,7 @@
     <a href="{% url 'auth_password_reset' %}" class="registration__forgot">
       {% trans "Forgot?" %}
     </a>
-    <input type="submit" value="Login" class="registration__action" />
+    <input type="submit" value="SignIn" class="bt btn-success" />
     <input type="hidden" name="next" value="{{ next }}" />
 
     {% if config.REGISTRATION_OPEN %}

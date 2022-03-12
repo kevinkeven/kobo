@@ -21,7 +21,7 @@
   flex-direction: column;
   width: $drawer-icons-width;
   height: 100%;
-  background-color: $drawer-background;
+  background-color: #333847;
 }
 
 .k-drawer__link {
@@ -79,6 +79,7 @@
   padding: 20px 14px;
   display: flex;
   flex-direction: column;
+  background-color: #e7e9ee;
 
   button.mdl-button {
     width: 100%;
